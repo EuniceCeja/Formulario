@@ -1,0 +1,21 @@
+body{
+    background-image: url(/Assets2/fondo.jpeg);
+    background-size: 2000px;
+    font-weight: bolder;
+}
+
+#datos{
+    background-image: url(/Assets2/patitas.jpg);
+    border-radius: 10px;
+}
+
+html {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 80px;
+    letter-spacing: 2px;
+    color: rgb(40, 4, 157);
+}
+
+fieldset {
+    border-radius: 10px;
+}

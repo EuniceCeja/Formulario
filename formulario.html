@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopción</title>
+    <link rel="stylesheet" href="/Assets2/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">  
+</head>
+<body>
+    
+    <h2>Formulario de Adopción</h2>
+    <div id="datos">
+    <fieldset>
+        <legend>Datos personales</legend> 
+        <label for="usuario">Nombre Completo:</label>
+        <input id="usuario" type="text"> 
+        <label for="edad">Edad:</label>
+        <input id="edad" type="number">
+        <br><br>
+        <legend>Sexo:</legend>
+        <input type="radio" name="hm" value="h" required> Hombre
+        <input type="radio" name="hm" value="m" required> Mujer
+    </fieldset>
+    </div>  
+    <br>
+    <div id="datos">
+    <fieldset>
+        <legend>Datos de contacto</legend>
+        <label for="direccion" type="text">Domicilio:</label>
+        <input required type="text">
+        <label for="ocupacion" type="text">Ocupación:</label>
+        <input id="ocupacion" type="text">
+        <label for="email" type="email">Correo electrónico:</label>
+        <input id="email" type="email">
+        </fieldset>
+    </div>
+    <br>
+    <div id="datos">
+     <fieldset>
+        <legend>Nivel de estudio</legend>
+            <label for="tecnico">Técnico</label>
+            <input id="tecnico" type="checkbox">
+            <br>
+            <label for="profesional">Profesional</label>
+            <input id="profesional" type="checkbox">
+            <br>
+            <label for="posgrado">Posgrado</label>
+            <input id="posgrado" type="checkbox">
+    </fieldset>
+    </div>
+    <hr>
+    <div>
+    <div id="datos">
+    <fieldset>
+            <legend>Referencias</legend>
+            <div id="datos">
+            <label for="personal">Referencia personal:</label>
+            <input id="personal" type="text">
+            <label for="telefonorp">Teléfono:</label>
+            <input id="telefonorp" type="tel">
+            <label for="relacionrp">Relación</label>
+            <input id="relacionrp" type="text">
+            <br><br>
+            <label for="familiar">Referencia familiar:</label>
+            <input id="personal" type="text">
+            <label for="telefonorf">Teléfono</label>
+            <input id="telefonorf" type="tel">
+            <label for="relacionfr">Parentezco</label>
+            <input id="relacionrf" type="text">
+    </fieldset>
+    </div>
+    <hr>
+    <div id="datos">
+    <fieldset>
+        <legend>Situación Personal</legend>
+        <h4>Menciona las personas con las que vives</h4>
+        <table border="2px">
+            <tbody>
+                <tr>
+                <th><label for="nombretb">Nombre</label></th>
+                <th><label for="edadtb">Edad</label></th>
+                <th><label for="parentezcotb">Parentezco</label></th>
+            </tr>
+            <tr>
+                <td><input id="nombretb"></td>
+                <td><input id="edadtb"></td>
+                <td><input id="parentezcotb"></td>
+            </tr>
+            <tr>
+                <td><input id="nombre2tb"></td>
+                <td><input id="edad2tb"></td>
+                <td><input id="parentezco2tb"></td>
+            </tr>
+            <tr>
+                <td><input id="nombre3tb"></td>
+                <td><input id="edad3tb"></td>
+                <td><input id="parentezco3tb"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+        <hr>
+    <div id="datos">
+        <label for="bebe">¿Algún familiar espera un bebé?</label>
+        <input id="bebe" type="checkbox">
+        <br><br>
+        <label><for="suscripcion" target="_blank">Suscribirme a notificaciones</label>
+        <input type="checkbox" name="suscripcion"> 
+    </fieldset>
+    </div>
+    <br><hr>
+</body>
+</html>
